@@ -28,7 +28,7 @@ Every navbar inside a `<header>` will have the classes `.container` or `.contain
 ```
 
 ## .htaccess Page Name Rewrites
-Generally the following rules will be applied for `.htaccess` page name rewrites.
+Generally the following rules will be applied for `.htaccess` page name rewrites. Just replace the domain names with the correct ones.
 ```
 <IfModule mod_rewrite.c> 
 Options +FollowSymLinks -MultiViews
