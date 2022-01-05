@@ -55,3 +55,9 @@ RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
 ## JavaScript
 I will be following most JavaScript conventions normally.
+
+## Tab Spacing
+I will always use a standard tab width (4 spaces) when writing HTML.
+
+## Space within tags and new lines
+There will be no space between any `<p>` tag and the content inside of it. Any paragraph will be single-line, but new tags will always be a new line.
