@@ -26,3 +26,29 @@ Every navbar inside a `<header>` will have the classes `.container` or `.contain
     </div>
 </header>
 ```
+
+## .htaccess Page Name Rewrites
+Generally the following rules will be applied for `.htaccess` page name rewrites.
+```
+<IfModule mod_rewrite.c> 
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine On 
+RewriteBase /
+
+#www to non
+RewriteCond %{HTTP_HOST} ^www\.(([a-z0-9_]+\.)?katiethe\.dev)$ [NC]
+RewriteRule ^(.+?)/?$ http://%1/$1/ [R=301,L]
+
+#html
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+#index redirect 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
+RewriteRule ^index\.html$ https://katiethe.dev/ [R=301,L]
+RewriteCond %{THE_REQUEST} \.html 
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+</IfModule>
+```
