@@ -7,7 +7,7 @@ Each page will be structured with a seperate `<header>` and `<body>` tag that wi
 When using Bootstrap, all body content will also be inside a `.container` or `.container-fluid`. This can have further `.container`s or `.container-fluid`s, depending on the needs of the page.
 
 ## Page Header
-Every navbar inside a `<header>` will have the classes `.container` or `.container-fluid` and will generally look like the following:
+Every navbar inside a `<header>` will have the classes `.container` or `.container-fluid` and will generally look like the following (written with BS5):
 ```html
 <header>
     <div class="container-fluid">
