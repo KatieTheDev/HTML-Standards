@@ -8,7 +8,7 @@ When using Bootstrap, all body content will also be inside a `.container` or `.c
 
 ## Page Header
 Every navbar inside a `<header>` will have the classes `.container` or `.container-fluid` and will generally look like the following:
-``html
+```html
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
@@ -25,4 +25,4 @@ Every navbar inside a `<header>` will have the classes `.container` or `.contain
         </div>
     </nav>
 </header>
-``
+```
