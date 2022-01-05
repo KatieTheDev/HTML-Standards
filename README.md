@@ -10,8 +10,8 @@ When using Bootstrap, all body content will also be inside a `.container` or `.c
 Every navbar inside a `<header>` will have the classes `.container` or `.container-fluid` and will generally look like the following:
 ```html
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <a class="navbar-brand" href="#">Site Brand</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@ Every navbar inside a `<header>` will have the classes `.container` or `.contain
                     <li class="nav-item"><a class="nav-link" href="page2.html">New Page</a></li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 </header>
 ```
