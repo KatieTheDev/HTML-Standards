@@ -52,3 +52,6 @@ RewriteCond %{THE_REQUEST} \.html
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 </IfModule>
 ```
+
+## JavaScript
+I will be following most JavaScript conventions normally.
