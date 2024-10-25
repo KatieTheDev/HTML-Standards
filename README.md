@@ -1,3 +1,5 @@
+# Archived 25 October 2024
+
 # HTML-Standards
 A list of HTML coding standards I will use. This will be updated over time and will be used in future projects, and current projects created before these standards will be updated to match these.
 
